@@ -1,11 +1,3 @@
-'''
-Задача: Загрузите таблицу в переменную df по указанному пути 
-('/content/sample_data/california_housing_train.csv'). Выведите информацию по столбцам:
-Выведите последние 5 строк
-Выведите размер таблицы
-Выведите каждую 2 строку
-'''
-
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
 
